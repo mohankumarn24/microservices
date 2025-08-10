@@ -41,5 +41,4 @@ public class CreateStudentRequest {
 	public void setAddressId(long addressId) {
 		this.addressId = addressId;
 	}
-
 }

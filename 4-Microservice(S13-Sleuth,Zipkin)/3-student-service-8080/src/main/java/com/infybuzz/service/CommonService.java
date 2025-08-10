@@ -20,20 +20,19 @@ public class CommonService {
 	@Autowired
 	AddressFeignClient addressFeignClient;
 
-	@CircuitBreaker(name = "addressService",
-			fallbackMethod = "fallbackGetAddressById")
+	@CircuitBreaker(name = "addressService", fallbackMethod = "fallbackGetAddressById")
 	public AddressResponse getAddressById (long addressId) {
+
 		logger.info("count = " + count);
 		count++;
-		AddressResponse addressResponse = 
-				addressFeignClient.getById(addressId);
-		
+
+		AddressResponse addressResponse = addressFeignClient.getById(addressId);
 		return addressResponse;
 	}
 	
 	public AddressResponse fallbackGetAddressById (long addressId, Throwable th) {
+
 		logger.error("Error = " + th);
 		return new AddressResponse();
 	}
-	
 }

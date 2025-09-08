@@ -1,5 +1,0 @@
-http://localhost:8761/
-http://localhost:9411/zipkin/
-http://localhost:9090/student-service/api/student/getById/1
-http://localhost:9090/student-service/actuator/health
-http://192.168.137.128:8081/schemas

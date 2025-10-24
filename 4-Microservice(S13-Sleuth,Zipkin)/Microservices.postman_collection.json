@@ -49,7 +49,7 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "json",
+					"_postman_previewlanguage": "",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -61,7 +61,7 @@
 						},
 						{
 							"key": "Date",
-							"value": "Mon, 08 Sep 2025 13:00:29 GMT"
+							"value": "Fri, 24 Oct 2025 09:35:03 GMT"
 						},
 						{
 							"key": "Keep-Alive",
@@ -73,55 +73,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"id\": 1,\n    \"firstName\": \"Raj\",\n    \"lastName\": \"Dave\",\n    \"email\": \"raj_dave@yahoo.com\",\n    \"addressResponse\": {\n        \"addressId\": 1,\n        \"street\": \"Happy Street\",\n        \"city\": \"Delhi\"\n    }\n}"
-				},
-				{
-					"name": "New Request",
-					"originalRequest": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:8080/api/student/getById/1",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"api",
-								"student",
-								"getById",
-								"1"
-							]
-						}
-					},
-					"status": "OK",
-					"code": 200,
-					"_postman_previewlanguage": "json",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						},
-						{
-							"key": "Transfer-Encoding",
-							"value": "chunked"
-						},
-						{
-							"key": "Date",
-							"value": "Mon, 08 Sep 2025 13:00:29 GMT"
-						},
-						{
-							"key": "Keep-Alive",
-							"value": "timeout=60"
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive"
-						}
-					],
-					"cookie": [],
-					"body": "{\n    \"id\": 1,\n    \"firstName\": \"Raj\",\n    \"lastName\": \"Dave\",\n    \"email\": \"raj_dave@yahoo.com\",\n    \"addressResponse\": {\n        \"addressId\": 1,\n        \"street\": \"Happy Street\",\n        \"city\": \"Delhi\"\n    }\n}"
+					"body": "{\n    \"id\": 1,\n    \"firstName\": \"Sachin\",\n    \"lastName\": \"Tendulkar\",\n    \"email\": \"test@email.com\",\n    \"addressResponse\": {\n        \"addressId\": 1,\n        \"street\": \"Mannat street\",\n        \"city\": \"Mumbai\"\n    }\n}"
 				}
 			]
 		},
@@ -168,7 +120,7 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "json",
+					"_postman_previewlanguage": "",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -180,7 +132,7 @@
 						},
 						{
 							"key": "Date",
-							"value": "Mon, 08 Sep 2025 13:01:40 GMT"
+							"value": "Fri, 24 Oct 2025 09:35:09 GMT"
 						},
 						{
 							"key": "Keep-Alive",
@@ -192,7 +144,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"addressId\": 1,\n    \"street\": \"Happy Street\",\n    \"city\": \"Delhi\"\n}"
+					"body": "{\n    \"addressId\": 1,\n    \"street\": \"Mannat street\",\n    \"city\": \"Mumbai\"\n}"
 				}
 			]
 		},
@@ -218,7 +170,7 @@
 			},
 			"response": [
 				{
-					"name": "http://localhost:8083/api/address/getById/1",
+					"name": "3 - http://localhost:8083/api/address/getById/1",
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
@@ -239,7 +191,7 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "json",
+					"_postman_previewlanguage": "",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -251,7 +203,7 @@
 						},
 						{
 							"key": "Date",
-							"value": "Mon, 08 Sep 2025 13:02:48 GMT"
+							"value": "Fri, 24 Oct 2025 09:35:14 GMT"
 						},
 						{
 							"key": "Keep-Alive",
@@ -263,7 +215,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"addressId\": 1,\n    \"street\": \"Happy Street\",\n    \"city\": \"Delhi\"\n}"
+					"body": "{\n    \"addressId\": 1,\n    \"street\": \"Mannat street\",\n    \"city\": \"Mumbai\"\n}"
 				}
 			]
 		},
@@ -296,7 +248,7 @@
 			},
 			"response": [
 				{
-					"name": "New Request",
+					"name": "4-http://localhost:9090/student-service/api/student/getById/1",
 					"originalRequest": {
 						"method": "GET",
 						"header": [
@@ -324,7 +276,7 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "json",
+					"_postman_previewlanguage": "",
 					"header": [
 						{
 							"key": "transfer-encoding",
@@ -336,11 +288,11 @@
 						},
 						{
 							"key": "Date",
-							"value": "Mon, 08 Sep 2025 13:38:20 GMT"
+							"value": "Fri, 24 Oct 2025 09:35:19 GMT"
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"id\": 1,\n    \"firstName\": \"Raj\",\n    \"lastName\": \"Dave\",\n    \"email\": \"raj_dave@yahoo.com\",\n    \"addressResponse\": {\n        \"addressId\": 1,\n        \"street\": \"Happy Street\",\n        \"city\": \"Delhi\"\n    }\n}"
+					"body": "{\n    \"id\": 1,\n    \"firstName\": \"Sachin\",\n    \"lastName\": \"Tendulkar\",\n    \"email\": \"test@email.com\",\n    \"addressResponse\": {\n        \"addressId\": 1,\n        \"street\": \"Mannat street\",\n        \"city\": \"Mumbai\"\n    }\n}"
 				}
 			]
 		}

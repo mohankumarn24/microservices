@@ -33,5 +33,4 @@ public class StudentServiceApplication {
 		
 		return webClient;
 	}
-
 }
